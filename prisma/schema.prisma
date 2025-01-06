@@ -29,5 +29,5 @@ model Credentials {
   userId    Int     @unique
   password  String?
   salt      String?
-  user      User     @relation(fields: [userId], references: [id])
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
