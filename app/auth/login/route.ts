@@ -46,7 +46,7 @@ export async function POST(request: NextRequest) {
     {
       status: 200,
       headers: {
-        "Set-Cookie": `session=${token}; Path=/; HttpOnly; Secure=${
+        "Set-Cookie": `session=${session.id}; Path=/; HttpOnly; Secure=${
           process.env.NODE_ENV === "production"
         }; SameSite=Lax; Max-Age=${session.expiresAt.getTime() - Date.now()}`,
       },
