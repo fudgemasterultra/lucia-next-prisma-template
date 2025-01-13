@@ -241,11 +241,3 @@ This project was inspired by the Lucia authentication library. You can learn mor
 ## License
 
 This project is licensed under the MIT License. See the [`LICENSE`](LICENSE) file for details.
-
-```
-
-This updated `README.md` includes information on how to copy the `.env.example` file to `.env`, how to change the database URL to different databases, and how to update the Prisma schema file accordingly.
-This updated `README.md` includes information on how to copy the `.env.example` file to `.env`, how to change the database URL to different databases, and how to update the Prisma schema file accordingly.
-
-Similar code found with 2 license types
-```
