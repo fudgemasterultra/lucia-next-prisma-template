@@ -1,17 +1,3 @@
-Here is the updated
-
-README.md
-
-with information on how to copy the
-
-.env.example
-
-file to
-
-.env
-
-, how to change the database URL to different databases, and how to update the Prisma schema file accordingly:
-
 ````markdown
 # Lucia Next Prisma Template
 
