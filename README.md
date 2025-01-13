@@ -18,15 +18,7 @@ bun install
 ```
 ````
 
-Next, copy the
-
-.env.example
-
-file to
-
-.env
-
-:
+Next, copy the .env.example file to .env:
 
 ```bash
 cp .env.example .env
