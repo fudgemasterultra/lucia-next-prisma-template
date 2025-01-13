@@ -26,13 +26,10 @@ export function middleware(request: NextRequest) {
         return NextResponse.redirect(new URL(loginUrl, request.url));
       });
   }
-  if (path.startsWith("/test/") && process.env.NODE_ENV === "development") {
-    return NextResponse.next();
-  }
   return NextResponse.next();
 }
 
 // See "Matching Paths" below to learn more
 export const config = {
-  matcher: ["/test/:test*", ...protectedRoutes],
+  matcher: [...protectedRoutes],
 };
